@@ -1,0 +1,14 @@
+{
+  "name": "amazon-scraper-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

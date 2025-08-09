@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Scraper Demo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Amazon Scraper</h1>
+        <p class="subtitle">Search the first page and preview product cards (demo)</p>
+      </header>
+
+      <section class="search">
+        <input id="keyword" type="text" placeholder="Type a keyword, e.g., mechanical keyboard" />
+        <button id="searchBtn">Search</button>
+      </section>
+
+      <section id="status" class="status hidden"></section>
+
+      <section id="results" class="grid"></section>
+
+    
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
